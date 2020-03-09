@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -12,13 +12,23 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/SBG_WebGL_Buld1.0.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+</html>
+<div>
+  <header></header>
+</div>
+<html lang="en-us">
+<body>
+<header>
+  <video autoplay muted loop id="myVideo" width="1920" height="1080" >
+    <source src="bg_video.mp4" type="video/mp4" >
+  </video>
+</header>
+<div class="webgl-content">
+  <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">WIWU_DEMO</div>
+        <div class="title">WIWU demo</div>
       </div>
     </div>
   </body>
