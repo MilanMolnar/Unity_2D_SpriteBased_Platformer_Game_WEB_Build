@@ -32,4 +32,4 @@ Free to play
    [C#]: <https://docs.microsoft.com/en-us/dotnet/csharp/>
    [Visual Studio]: <https://visualstudio.microsoft.com/>
    [Unity Collab]: <https://unity.com/unity/features/collaborate>
-   [Play here]: <https://bit.ly/2W1nyI2e>
+   [Play here]: <https://bit.ly/2W1nyI2>
